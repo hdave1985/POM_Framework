@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-13T18:30:49 IST" name="Aiana test Suite" finished-at="2025-08-13T18:30:59 IST" duration-ms="9598">
+    <groups>
+      <group name="master">
+        <method signature="TC_001_LoginPage.performLogin()[pri:0, instance:testCases.TC_001_LoginPage@70325e14]" name="performLogin" class="testCases.TC_001_LoginPage"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2025-08-13T18:30:49 IST" name="Aiana Google Chrome Browser Test" finished-at="2025-08-13T18:30:59 IST" duration-ms="9598">
+      <class name="testCases.TC_001_LoginPage">
+        <test-method is-config="true" signature="testSetup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_LoginPage@70325e14]" started-at="2025-08-13T18:30:49 IST" name="testSetup" finished-at="2025-08-13T18:30:55 IST" duration-ms="6124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="performLogin()[pri:0, instance:testCases.TC_001_LoginPage@70325e14]" started-at="2025-08-13T18:30:55 IST" name="performLogin" finished-at="2025-08-13T18:30:58 IST" duration-ms="2324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogin -->
+        <test-method is-config="true" signature="testTearDown()[pri:0, instance:testCases.TC_001_LoginPage@70325e14]" started-at="2025-08-13T18:30:58 IST" name="testTearDown" finished-at="2025-08-13T18:30:59 IST" duration-ms="919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTearDown -->
+      </class> <!-- testCases.TC_001_LoginPage -->
+    </test> <!-- Aiana Google Chrome Browser Test -->
+  </suite> <!-- Aiana test Suite -->
+</testng-results>
